@@ -1,0 +1,13 @@
+package constants
+
+var ENV = []string{
+	"SERVER_PORT",
+	"MIGRATE",
+	"POSTGRES_USER",
+	"POSTGRES_PASS",
+	"POSTGRES_DB",
+	"POSTGRES_HOST",
+	"POSTGRES_PORT",
+	"REDIS_HOST",
+	"REDIS_PORT",
+	"REDIS_PASSWORD"}
