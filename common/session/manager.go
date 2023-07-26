@@ -27,7 +27,7 @@ func InitCacheManager() {
 		Host:         config.REDIS_HOST,
 		Port:         config.REDIS_PORT,
 		Password:     config.REDIS_PASSWORD,
-		DB:           0,
+		DB:           1,
 		MaxRetries:   3,
 		RetryBackoff: 2 * time.Second,
 	}
@@ -35,7 +35,7 @@ func InitCacheManager() {
 		Host:         config.REDIS_HOST,
 		Port:         config.REDIS_PORT,
 		Password:     config.REDIS_PASSWORD,
-		DB:           0,
+		DB:           2,
 		MaxRetries:   3,
 		RetryBackoff: 2 * time.Second,
 	}
